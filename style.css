@@ -1,0 +1,272 @@
+body {
+    background-color: #e0f7fa;
+    /* Azul claro */
+    color: #212529;
+    /* Color de texto principal */
+    font-family: 'Arial', sans-serif;
+    /* Fuente principal */
+    font-size: 16px;
+    /* Tamaño de letra base */
+    margin-bottom: 60px;
+    /* Espacio inferior para el footer */
+}
+
+.navbar {
+    background-color: #004d40;
+    /* Negro */
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    /* Blanco para los enlaces */
+    font-size: 18px;
+    /* Tamaño de letra de los enlaces de la barra de navegación */
+}
+.logo{
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    color: #212529;
+    /* Negro */
+    text-align: center;
+    /* Alineación del título */
+    margin-top: 50px;
+    /* Margen superior del título */
+    font-size: 32px;
+    /* Tamaño de letra del título */
+}
+
+.card {
+    background-color: #ffffff;
+    /* Blanco para las tarjetas */
+    margin-bottom: 20px;
+    /* Margen inferior de las tarjetas */
+    border: 1px solid #dee2e6;
+    /* Borde gris claro */
+    font-size: 18px;
+    /* Tamaño de letra de las tarjetas */
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Transición para la transformación y la sombra */
+}
+
+.card:hover {
+    border-color: #00796b;
+    /* Cambia el color del borde al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Aplica una sombra al pasar el ratón */
+    transform: scale(1.05);
+    /* Aumenta el tamaño de la tarjeta ligeramente */
+}
+
+.card-title {
+    color: #00796b;
+    /* Verde */
+    font-size: 22px;
+    /* Tamaño de letra del título de las tarjetas */
+}
+
+.card-body p {
+    color: #212529;
+    /* Negro */
+    font-size: 16px;
+    /* Tamaño de letra del texto de las tarjetas */
+    font-weight: bold; /* Hace que el texto sea negrita */
+}
+
+.social-icons {
+    text-align: center;
+    /* Alineación centrada */
+    margin-top: 20px;
+    /* Margen superior */
+}
+
+.social-icons a {
+    color: #ffffff;
+    /* Color blanco para los íconos */
+    font-size: 32px;
+    /* Tamaño más grande para los íconos */
+    margin: 0 10px;
+    /* Espaciado entre los íconos */
+}
+
+.social-icons a:hover {
+    color: #004d40;
+    /* Cambio de color al hacer hover */
+}
+
+footer {
+    background-color: #212529;
+    /* Negro */
+    color: #ffffff;
+    /* Blanco */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    /* Posición fija */
+    width: 100%;
+    /* Ancho completo */
+    bottom: 0;
+    /* Ajuste al fondo */
+    font-size: 16px;
+    /* Tamaño de letra del footer */
+}
+
+.card-img-top {
+    height: 300px;
+    /* Altura fija para las imágenes */
+    object-fit: cover;
+    /* Ajustar la imagen para cubrir el área del contenedor */
+}
+
+.quienes-somos {
+    background-color: #ffffff;
+    /* Fondo blanco */
+    padding: 40px 20px;
+    /* Espaciado interno */
+    margin-top: 30px;
+    /* Margen superior */
+    border: 1px solid #dee2e6;
+    /* Borde gris claro */
+    text-align: center;
+    /* Alineación del contenido */
+    font-size: 18px;
+    /* Tamaño de letra de la sección "Qué hacemos?" */
+}
+
+.quienes-somos h2 {
+    color: #00796b;
+    /* Verde */
+    font-size: 26px;
+    /* Tamaño de letra del título de la sección "Qué hacemos?" */
+}
+
+.quienes-somos p {
+    color: #212529;
+    /* Negro */
+    font-weight: bold;
+    /* Negrita */
+    margin-bottom: 20px;
+    /* Margen inferior */
+    font-size: 18px;
+    /* Tamaño de letra del texto de la sección "Qué hacemos?" */
+}
+
+.presupuestos {
+    background-color: #ffffff;
+    /* Fondo blanco */
+    padding: 40px;
+    /* Espaciado interno */
+    margin-top: 30px;
+    /* Margen superior */
+    border: 1px solid #dee2e6;
+    /* Borde gris claro */
+    text-align: center;
+    /* Alineación del contenido */
+    font-size: 18px;
+    /* Tamaño de letra */
+    color: black;
+}
+
+.presupuestos h2 {
+    color: #00796b;
+    /* Color verde para el título */
+    font-size: 24px;
+    /* Tamaño de letra del título */
+    margin-bottom: 20px;
+    /* Margen inferior del título */
+}
+
+.presupuestos p {
+    margin-bottom: 25px;
+    /* Margen inferior para los párrafos */
+}
+
+.presupuestos .contact-info {
+    margin-top: 20px;
+    /* Margen superior para la información de contacto */
+}
+
+.presupuestos .contact-info a {
+    color: #00796b;
+    /* Color verde para los enlaces */
+    text-decoration: none;
+    /* Sin subrayado */
+    margin: 0 10px;
+    /* Espaciado entre enlaces */
+}
+
+.presupuestos .contact-info a:hover {
+    text-decoration: underline;
+    /* Subrayado al hacer hover */
+}
+.contacto {
+    background-color: #ffffff;
+    /* Fondo blanco */
+    padding: 40px;
+    /* Espaciado interno */
+    margin-top: 30px;
+    /* Margen superior */
+    border: 1px solid #dee2e6;
+    /* Borde gris claro */
+    text-align: center;
+    /* Alineación del contenido */
+    font-size: 18px;
+    /* Tamaño de letra */
+}
+
+.contacto h1 {
+    color: #00796b;
+    /* Color verde para los títulos */
+    font-size: 24px;
+    /* Tamaño de letra de los títulos */
+    margin-bottom: 10px;
+    /* Margen inferior de los títulos */
+}
+
+.contacto h2 {
+    margin-bottom: 20px;
+    /* Margen inferior para los subtítulos */
+}
+
+.contacto a {
+    color: black;
+    /* Color verde para los enlaces */
+    text-decoration: none;
+    /* Sin subrayado */
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+    /* Subrayado al hacer hover */
+}
+/* Estilo para el contenedor de Nuestros-clientes */
+.Nuestros-clientes {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
+.Antecedentes-Comerciales{
+    color: #00796b;
+}
+/* Estilo para los nombres de las empresas con flechita */
+.Nuestros-clientes .col {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px; /* Espacio para la flechita */
+}
+
+.Nuestros-clientes .col::before {
+    content: '\2192'; /* Código Unicode de la flechita */
+    position: absolute;
+    left: 0;
+    color: #000; /* Color de la flechita */
+    font-size: 20px; /* Tamaño de la flechita */
+    top: 50%;
+    transform: translateY(-50%);
+}
